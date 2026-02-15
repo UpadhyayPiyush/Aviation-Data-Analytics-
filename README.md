@@ -63,4 +63,37 @@ The dataset covers:
 - Power Query – Data cleaning and transformation
 - DAX (Power BI) – Load factor calculations and measures
 
-  
+## Insights 
+**Aircraft Utilization**  
+Load factor improved from approximately 75% to 78% over the years, indicating better seat utilization and operational efficiency.  
+
+**Passenger Demand Behavior**  
+Weekend flights showed slightly higher load factor than weekdays, suggesting leisure-driven travel demand, while weekday traffic remained consistent due to business travel.  
+
+**Carrier Performance**  
+Top 10 carriers handled the majority of passengers, but some carriers showed lower load factor, revealing operational inefficiency despite high traffic.  
+
+**Route Performance**  
+Certain city routes consistently had the highest number of flights, identifying major travel corridors and high-revenue markets.  
+
+**Distance Analysis**  
+Most flights occurred in short-haul distance groups (under ~1000 miles), indicating a regional network strategy and dependency on short routes.  
+
+**Seasonal Trends**  
+Quarterly and monthly analysis revealed peak demand seasons, useful for scheduling and marketing planning.  
+
+## Recommendations 
+
+Based on the analysis:  
+- Increase flight frequency on high-demand routes
+- Reduce or optimize schedules on low load-factor routes
+- Adjust pricing and promotions for off-season periods
+- Allocate smaller aircraft on weak demand routes
+- Focus weekend marketing campaigns on leisure travelers
+- Improve operational efficiency for low performing carriers
+These actions can improve seat occupancy, reduce operational cost, and increase airline profitability.
+
+## Conclusion 
+The High Cloud Airlines analytics project demonstrates how data analytics can improve airline decision-making. By integrating SQL validation, data modeling, and BI dashboards, the project converts raw operational data into actionable business insights.  
+
+The dashboards enable stakeholders to quickly monitor performance, detect inefficiencies, and plan operational strategies. This project highlights the importance of data-driven decision-making in industries like aviation where efficiency directly impacts revenue and customer satisfaction.  
