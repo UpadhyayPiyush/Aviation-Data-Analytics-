@@ -16,7 +16,51 @@ High Cloud Airlines needed answers to key operational questions:
 - Is demand driven by business travel or leisure travel?
 - How should fleet allocation and scheduling be optimized?
 
-  Without a centralized analytics system, management relied on manual reporting, making it difficult to quickly detect inefficiencies or take timely decisions.
+Without a centralized analytics system, management relied on manual reporting, making it difficult to quickly detect inefficiencies or take timely decisions.
 
 ## Objective 
+The primary objective of this project was to evaluate airline operational performance and support strategic decision-making by analyzing key airline KPIs.  
+
+Key goals:  
+- Calculate and analyze Load Factor % (Passengers / Available Seats)
+- Identify Top performing carriers
+- Detect high-demand routes
+- Compare Weekend vs Weekday travel patterns
+- Analyze distance-based flight distribution
+- Track performance trends across year, quarter, and month
+- Build an interactive dashboard for stakeholders
+
+## Dataset Overview
+The dataset contains airline operational data including flight schedules, passenger counts, and aircraft capacity.  
+
+Key data fields:  
+- Year, Month, Day (used to create date dimension)
+- Carrier Name
+- Origin City & Destination City
+- Distance Group
+- Available Seats
+- Transported Passengers
+- Flight Airtime
+
+From these fields, a complete date calendar table was created:  
+- Year
+- Month Number & Month Name
+- Quarter
+- Year-Month
+- Weekday Number & Name
+- Financial Month & Financial Quarter
+
+The dataset covers:  
+- 110,000+ flights
+- 187M+ passengers
+- 82M+ miles flown
+- 27M+ airtime hours
+
+## Tools & Technologies 
+- MySQL – Data validation, KPI calculations, and aggregations
+- Power BI – Interactive dashboards and visualization
+- Microsoft Excel – Exploratory analysis and secondary dashboard
+- Power Query – Data cleaning and transformation
+- DAX (Power BI) – Load factor calculations and measures
+
   
